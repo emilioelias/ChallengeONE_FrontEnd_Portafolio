@@ -1,0 +1,81 @@
+.menu {
+    margin: 2.5625rem 9.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__header img {
+    filter: invert(22%) sepia(2%) saturate(6%) hue-rotate(5deg) brightness(102%) contrast(82%);
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-right: 0.9375rem;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu__list img {
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+.menu__list__item {
+    margin-right: 2rem;
+}
+
+.menu__list__item:nth-child(6) {
+    font-weight: bold;
+    margin-right: 0rem;
+}
+
+.menu__list__item__contato {
+    display: none;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .todo {
+        width: 425px;
+    }
+    .menu {
+        width: 360px;
+        margin: 1rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .menu__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .menu__list__item__contato {
+        display: flex;
+    }
+
+}

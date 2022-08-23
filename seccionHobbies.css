@@ -1,0 +1,134 @@
+.hobbies {
+    padding: 0rem 9.5rem 3rem 9.5rem;
+}
+
+.hobbies__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__box {
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+    margin-right: 1rem;
+}
+
+.hobbies__box:nth-child(4) {
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+    margin-right: 0rem;
+}
+
+.hobbies__ul {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hobbies__img img {
+    height: 32px;
+    width: 32px;
+    filter: invert(48%) sepia(13%) saturate(3803%) hue-rotate(187deg) brightness(91%) contrast(95%);
+    padding-top: 5.8rem;
+}
+
+.hobbies__name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1875;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .hobbies {
+        margin: 1rem;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        gap: 32px;
+        width: 360px;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .hobbies__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        color: #464646;
+    }
+
+    .hobbies__line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hobbies__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 1rem;
+        margin: 1rem;
+        width: 156px;
+        height: 118px;
+        background: #FFFFFF;
+    }
+
+    .hobbies__box:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 1rem;
+        margin: 1rem;
+        width: 156px;
+        height: 118px;
+        background: #FFFFFF;
+    }
+    .hobbies__ul {
+        padding: 1rem;
+    }
+
+    .hobbies__img img {
+        height: 32px;
+        width: 32px;
+        filter: invert(48%) sepia(13%) saturate(3803%) hue-rotate(187deg) brightness(91%) contrast(95%);
+        padding-top: 0rem;
+    }
+
+    .hobbies__name {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1875;
+    }
+}

@@ -1,0 +1,73 @@
+.about {
+    background: #EAF2FD;
+}
+
+.about__container {
+    margin: 2.5625rem 9.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+
+.about__paragraph {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    width: 63%;
+}
+
+.about__firmaDigital {
+    filter: grayscale(100%);
+    width: 16rem;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .about {
+        width: 425px;
+        background: #EAF2FD;
+    }
+    
+    .about__container {
+        width: 425px;
+        margin: 0;
+        padding: 1rem;
+    }
+    
+    .about__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+    }
+    
+    .about__paragraph {
+        width: 360px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+        
+    }
+    
+    .about__firmaDigital {
+        filter: grayscale(100%);
+        width: 8rem;
+    }
+    
+}

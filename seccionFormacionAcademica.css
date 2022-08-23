@@ -1,0 +1,97 @@
+.academic {
+    background: #EAF2FD;
+    padding: 5rem 9.5rem;
+}
+
+.academic__title {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center;
+}
+
+.academic__courses__box {
+    margin-right: 1rem;
+}
+
+.academic__courses__list {
+    padding: 0rem;
+}
+
+.academic__courses__item__img {
+    background: #FFFFFF;
+    width: 368px;
+    height: 286px;
+    text-align: center;
+
+}
+
+.academic__courses__item__img img {
+    width: 50%;
+    margin-top: 15%;
+}
+
+.academic__courses__item__title {}
+
+.academic__courses__item__subtitle {}
+
+/*Tablet*/
+@media (max-width: 768px) {}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+    .academic {
+        width: 360px;
+        background: #EAF2FD;
+        padding: 1rem;
+    }
+
+    .academic__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+    }
+
+    .academic__courses {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .academic__courses__box {
+        margin-right: 1rem;
+    }
+
+    .academic__courses__list {
+        padding: 0rem;
+    }
+
+    .academic__courses__item__img {
+        background: #FFFFFF;
+        width: 296px;
+        height: 118px;
+        text-align: center;
+
+    }
+
+    .academic__courses__item__img img {
+        width: 20%;
+        margin-top: 11%;
+    }
+
+    .academic__courses__item__title {}
+
+    .academic__courses__item__subtitle {}
+}

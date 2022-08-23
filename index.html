@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Se importa libreria html2pdf -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.1/html2pdf.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="seccioMenu.css">
+    <link rel="stylesheet" href="seccionTitle.css">
+    <link rel="stylesheet" href="seccionAbout.css">
+    <link rel="stylesheet" href="seccionSkills.css">
+    <link rel="stylesheet" href="seccionHobbies.css">
+    <link rel="stylesheet" href="seccionFormacionAcademica.css">
+    <link rel="stylesheet" href="seccionExperiencia.css">
+    <link rel="stylesheet" href="seccionContacto.css">
+    <link rel="stylesheet" href="generarPdf.css">
+    <link rel="stylesheet" href="seccionFooter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <div class="todo">
+        <section class="menu">
+            <header class="menu__header">
+                <img src="assets/perfil.png">
+                <h3 class="menu__title">Luis Emilio Elias</h3>
+            </header>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                    <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                    <li class="menu__list__item"><a href="#contacto">emilioe@hotmail.com.ar</a></li>
+                </ul>
+                <li class="menu__list__item__contato"><a href="#contacto">emilioe@hotmail.com.ar</a></li>
+            </nav>
+        </section>
+
+        <!-- Sección del Header/Title/Hero -->
+        <section class="title">
+            <div class="title__div">
+                <img class="title__profile" src="assets/fotoEmilio.jpg">
+                <div class="title__container">
+                    <h2 class="title__bio">Hola, mi nombre es Emilio Elias, soy Técnico en Seguridad e Higiene Laboral.
+                    </h2>
+                    <h3 class="title__subsection">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
+                        Con la finalidad de formar parte de un grupo Dev, para poder participar en proyectos de sistemas
+                        industriales dentro de mi especialidad.</h3>
+                    <ul class="title__network">
+                        <!-- Pon los enlaces de tus redes sociales favoritas -->
+                        <li class="title__network__item"><a href="https://github.com/emilioelias">Github <img src="assets\arrow.png"> </a></li>
+                        <li class="title__network__item"><a href="https://linkedin.com/in/emilio-elias-03341623a">Linkedin <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><a href="https://msng.link/o/?emilioe375=ig">Instagram <img src="assets\arrow.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección sobre mi -->
+        <section class="about" id="sobre-mi">
+            <div class="about__container">
+                <h3 class="about__title">Sobre mi</h3>
+                <p class="about__paragraph">Soy una persona resolutiva, autodidacta cada día, capaz de resolver problemas y acostumbrado al trabajo bajo presión. Tengo varios años de experiencia como asistente para el desarollo de sistemas en distintos procesos industriales. 
+                    Siempre en la búsqueda de oportunidades comerciales. </p>
+                <p class="about__paragraph">Tras años de experiencia, he tomado la decisión de reorientar mi carrera profesional con el ánimo de continuar aprendiendo y, 
+                    también, aportar toda mi experiencia adquirida. Considero que el cambio es un signo de capacidad de superación y, 
+                    por ello, creo que siempre sería capaz de aportar valor en la empresa en la que me encuentre.
+                    Mi objetivo principal es desarrollarme profesionalmente y evolucionar en mi sector, de modo que busco oportunidades que me permitan hacerlo, 
+                    al tiempo que trataré de alinearme completamente con los objetivos de la empresa.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <img class="about__firmaDigital" src="assets/firmaDigitalEmilio.png">
+            </div>
+        </section>
+
+        <!-- Sección de Skills -->
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul class="skills__ul">
+                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__ul">
+                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__ul">
+                        <li class="skills__img"> <img src="assets/css_icon.png" alt=""></li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__ul">
+                        <li class="skills__img"><img src="" alt=""></li>
+                        <li class="skills__name">Java</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__ul">
+                        <li class="skills__img"> <img src="" alt=""> </li>
+                        <li class="skills__name">Autocad</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Hobbies -->
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul class="hobbies__ul">
+                        <li class="hobbies__img"><img src="assets/futbol.png"></li>
+                        <li class="hobbies__name">Jugar al fútbol</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul class="hobbies__ul">
+                        <li class="hobbies__img"> <img src="assets/lancha2.png" alt=""></li>
+                        <li class="hobbies__name">Navegar</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul class="hobbies__ul">
+                        <li class="hobbies__img"> <img src="assets/musica.png" alt=""></li>
+                        <li class="hobbies__name">Escuchar música</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul class="hobbies__ul">
+                        <li class="hobbies__img"><img src="assets/peliculas.png" alt=""></li>
+                        <li class="hobbies__name">Ver Peliculas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Formación académica -->
+        <section class="academic" id="formacion">
+            <h2 class="academic__title">Formación académica</h2>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img src="assets/UES21-2.jpg"></li>
+                        <li class="academic__courses__item__title">
+                            <h4>Técnico en Higiene y Seguridad Laboral.<br><br><br><br></h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2018 - UES21</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!--Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img src="assets/EducacionIT.jpg"></li>
+                        <li class="academic__courses__item__title">
+                            <h4>Introducción al paradigma de objetos.<br>Java para no programadores.<br>Introducción a bases de datos SQL.<br>Desarrollo web con HTML.</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2020 - Educación IT</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!--Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+                        <li class="academic__courses__item__title">
+                            <h4>Programación.<br>Front End.<br>Innovación y Gestión.<br><br></h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2022 - Alura</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section class="experience" id="xp">
+            <h2 class="experience__section__title">Experiencia Profesional</h2>
+            <div class="experiencie__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/proyecto1.png">
+                <div class="experience__info">
+                    <h2 class="experience__title">Encriptador de texto</h2>
+                    <h3 class="experience__text">Challenge Alura Codificador </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a
+                                href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
+                                    class="experiencia__botao--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver
+                                    demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencie__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/proyecto2.png">
+                <div class="experience__info">
+                    <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+                    <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a
+                                href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
+                                    class="experiencia__botao--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver
+                                    demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div class="formcontato__contacto">
+                <div class="formcontato__esquerda">
+                    <img class="formcontato__img" src="assets/contacto4.png">
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
+                        usted lo antes posible. </h3>
+                    
+                    <form class="formcontato__form" name="form" action="https://formsubmit.co/emilioe@hotmail.com.ar" method="POST">
+
+                        <input class="formcontato__input" id="nombre" type="text" name="nombre"  maxlength="50" placeholder="Nombre"
+                            autocomplete="off" required>
+                        <input class="formcontato__input" id="email" type="email" name="email" placeholder="E-mail" maxlength="50" autocomplete="off" required>
+                        <input class="formcontato__input" id="asunto" type="text" name="asunto" placeholder="Asunto" autocomplete="off" required>
+                        
+                        <textarea class="formcontato__textarea" rows="5" cols="41" id="mensaje" name="mensaje"
+                            placeholder="Mensaje" autocomplete="off" required></textarea>
+                        <div class="formcontacto__botao__div">
+                        <button type="submit" class="formcontato__botao" id="formcontato__botao">Enviar mensaje</button>
+                        <button type="reset" class="formcontato__botao">Borrar formulario</button>
+                    </div>
+                        <input type="hidden" name="_next" value="https://trello.com/b/T04hUhNJ/portafolio">
+                        <input type="hidden" name="_captcha" value="true">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de generarPDF -->
+        <section class="generarPDF">
+            <div class="generarPDF__text">
+                <p>Obtener PDF del Portafolio</p>
+                <button type="submit" class="generarPDF__boton" id="generarPDF__boton">Descargar PDF</button>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Luis Emilio Elias</p>
+                <p>2022</p>
+            </div>
+        </section>
+
+    </div>
+    <!-- Script del documento JavaScript -->
+    <script src="validacion.js"></script>
+    <script src="generarPDF.js"></script>
+    <script src="resetFormulario.js"></script>
+</body>
+
+</html>

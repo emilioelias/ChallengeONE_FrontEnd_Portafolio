@@ -1,0 +1,26 @@
+.generarPDF {
+    display: flex;
+    justify-content: center;
+}
+
+.generarPDF__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+.generarPDF__boton {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        width: 108px;
+        height: 40px;
+        background: #2A7AE4;
+        border-color: #2A7AE4;
+}
